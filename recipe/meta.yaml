@@ -1,5 +1,5 @@
 {% set name = "debuglater" %}
-{% set version = "1.4.3" %}
+{% set version = "1.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/debuglater-{{ version }}.tar.gz
-  sha256: e99116a52b3b1515d8734ab7f26a74bb0f32f23d76b323792a9eb60714ab169e
+  sha256: f3a388acff38006774ad775f191edfa34268b6d5d92dcfa0a9b2cc1f771dfb1e
 
 build:
   entry_points:
